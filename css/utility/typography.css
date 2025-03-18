@@ -1,0 +1,79 @@
+:root {
+  /*Farro*/
+  --display-lg: 700 3.75rem/1.1 "Farro", display;
+  --display-md: 700 2.5rem/1.1 "Farro", display;
+  --headline-lg: 700 2rem/1.25 "Farro", display;
+  --label-lg: 700 0.875rem/1.14 "Farro", display;
+
+  /*Alegreya Sans*/
+  --body-lg: 400 1.5rem/1.33 "Alegreya Sans", sans-serif;
+  --body-lg-b: 700 1.5rem/1.33 "Alegreya Sans", sans-serif;
+  --body-md: 400 1.25rem/1.6 "Alegreya Sans", sans-serif;
+  --body-md-b: 700 1.25rem/1.6 "Alegreya Sans", sans-serif;
+  --title-lg: 400 1.25rem/1 "Alegreya Sans", sans-serif;
+  --title-lg-b: 700 1.25rem/1.6 "Alegreya Sans", sans-serif;
+  --title-md-i: italic 300 1rem/1.5 "Alegreya Sans", sans-serif;
+  --title-md: 400 1rem/1.5 "Alegreya Sans", sans-serif;
+  --title-md-b: 700 1rem/1.5 "Alegreya Sans", sans-serif;
+  --body-sm: 400 0.875rem/1.42 "Alegreya Sans", sans-serif;
+  --label-md: 400 0.75rem/1 "Alegreya Sans", sans-serif;
+  --label-md-b: 700 0.75rem/1 "Alegreya Sans", sans-serif;
+}
+
+/*Displays*/
+.display-lg {
+  font: var(--display-lg);
+}
+.display-md {
+  font: var(--display-md);
+}
+
+/*Headline*/
+.headline-lg {
+  font: var(--headline-lg);
+}
+
+/*Body*/
+.body-lg {
+  font: var(--body-lg);
+}
+.body-lg-b {
+  font: var(--body-lg-b);
+}
+.body-md {
+  font: var(--body-md);
+}
+.body-md-b {
+  font: var(--body-md-b);
+}
+.body-sm {
+  font: var(--body-sm);
+}
+
+/*Titles*/
+.title-lg {
+  font: var(--title-lg);
+}
+.title-lg-b {
+  font: var(--title-lg-b);
+}
+.title-md {
+  font: var(--title-md);
+}
+.title-md-i {
+  font: var(--title-md-i);
+}
+.title-md-b {
+  font: var(--title-md-b);
+}
+
+/*Labels*/
+.label-lg {
+  font: var(--label-lg);
+}
+.label-md {
+  font: var(--label-md);
+}
+.label-md-b {
+  font: var(--label-md-b);
+}
