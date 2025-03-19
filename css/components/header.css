@@ -1,0 +1,49 @@
+.header {
+  max-inline-size: var(--container); /*max-width*/
+  margin-inline: auto; /*margin*/
+  padding-top: var(--page-block-spacing);
+  padding-inline: var(--page-inline-spacing);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menu {
+  font: var(--title-md);
+  display: flex;
+  gap: 20px;
+}
+
+.header__menu a {
+  padding-block: 0.8em;
+}
+
+.header__menu a:hover {
+  color: var(--p-40);
+}
+
+.header--hamburger {
+  display: none;
+  aspect-ratio: 1/1; /*equal proportion of width and height*/
+  inline-size: 2rem;
+}
+
+.header--hamburger > * {
+  height: 4px;
+  width: 100%;
+  background: var(--p-40);
+  border-radius: 2px;
+}
+
+@media (max-width: 760px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header--hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}

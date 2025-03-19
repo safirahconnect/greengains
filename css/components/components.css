@@ -1,0 +1,26 @@
+/*Container*/
+:root {
+  --container: 1200px;
+  --section-spacing: 24rem;
+  --page-block-spacing: 2rem;
+  --page-inline-spacing: 2rem;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --page-block-spacing: 1rem;
+    --page-inline-spacing: 1rem;
+  }
+}
+
+/*Btns*/
+.btn {
+  font: var(--title-md);
+  padding: 0.75em 1.25em;
+  border-radius: 8px;
+}
+
+.btn--outlined {
+  color: var(--p-70);
+  border: 1px solid currentColor;
+}
