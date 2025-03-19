@@ -22,19 +22,6 @@
   margin-top: 1em;
 }
 
-.hero__info__headline {
-  font: var(--display-lg);
-}
-
-.hero__info__headline > * {
-  color: var(--p-40);
-}
-
-.hero__info__text {
-  font: var(--body-lg);
-  color: var(--p-70);
-}
-
 @media (max-width: 960px) {
   .hero__img > * {
     border-radius: 8px;

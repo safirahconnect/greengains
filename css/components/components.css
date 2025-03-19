@@ -25,6 +25,26 @@
   }
 }
 
+/*Headlines*/
+.headline--lg {
+  font: var(--display-lg);
+}
+
+.headline--md {
+  font: var(--display-md);
+}
+
+.headline--lg > *,
+.headline--md > * {
+  color: var(--p-40);
+}
+
+/*Texts*/
+.text--lg {
+  font: var(--body-lg);
+  color: var(--p-70);
+}
+
 /*Btns*/
 .btn {
   font: var(--title-md-b);
