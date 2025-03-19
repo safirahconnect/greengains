@@ -1,8 +1,4 @@
 .header {
-  max-inline-size: var(--container); /*max-width*/
-  margin-inline: auto; /*margin*/
-  padding-top: var(--page-block-spacing);
-  padding-inline: var(--page-inline-spacing);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -28,7 +24,7 @@
   inline-size: 2rem;
 }
 
-.header__hamburger > * {
+.header__hamburger-line {
   height: 4px;
   width: 100%;
   background: var(--p-40);

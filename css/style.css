@@ -1,4 +1,5 @@
 @import "./reset/reset.css";
+@import "./components/global.css";
 
 @import "./utility/typography.css";
 @import "./utility/color.css";
@@ -7,3 +8,4 @@
 @import "./components/header.css";
 
 @import "./home/hero.css";
+@import "./home/testimonials.css";

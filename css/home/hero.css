@@ -1,8 +1,4 @@
 .hero {
-  max-width: var(--container);
-  margin-inline: auto;
-  padding-block: var(--section-spacing);
-  padding-inline: var(--page-inline-spacing);
   display: grid;
   grid-template-columns: 7fr 5fr;
   gap: 80px;
@@ -22,7 +18,7 @@
   margin-top: 1em;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 992px) {
   .hero__img > * {
     border-radius: 8px;
     height: 100%;

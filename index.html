@@ -10,11 +10,10 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,300&family=Farro:wght@700&display=swap" rel="stylesheet">
-</head>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400&family=Farro:wght@700&display=swap" rel="stylesheet">
 
 <body>
-  <header class="header">
+  <header class="header container">
     <a href=""><img src="./img/logo.svg" alt="GreenGains' Logo"></a>
     <nav>
       <ul class="header__menu">
@@ -26,18 +25,18 @@
       </ul>
     </nav>
     <div class="header__hamburger">
-      <div></div>
-      <div></div>
-      <div></div>
+      <div class="header__hamburger-line"></div>
+      <div class="header__hamburger-line"></div>
+      <div class="header__hamburger-line"></div>
     </div>
   </header>
 
-  <main class="hero">
-    <div class="hero__info">
+  <main class="hero container section-gap">
+    <div class=" hero__info">
       <h1 class="headline--lg">Your Eco-Enthusiast <span>Personal Trainer</span> for a Healthier You<span>.</span>
       </h1>
       <p class="text--lg">Achieve your fitness goals with tailored programs, nutritional guidance and eco-friendly events that help keep the planet a thriving place to live.</p>
-      <div>
+      <div class="hero__buttons">
         <a class="btn btn--filled btn--elevated" href="./pricing.html">View Pricing & Plans</a>
         <a class="btn btn--text" href="./community.html">Our Community</a>
       </div>
@@ -47,17 +46,51 @@
     </picture>
   </main>
 
-  <!-- <section class="testimonials">
-    <h2>What our clients are saying<span>:</span></h2>
+  <section class="testimonials container section-gap">
+    <h2 class="testimonials__title headline--md ">What our <span>clients</span> are saying<span>:</span></h2>
     <ul class="testimonials__list">
-      <li>
-        <img src="./img/pfp/kamilla.jpg" alt="Client's profile picture">
-        <h3>Kamilla Becker 🍃</h3>
-        <span><span>5</span>/5</span>
-        <p>“Lorem ipsum dolor sit amet consectetur. Orci nulla gravida ac risus ultrices.. Eu massa ornare sed netus senectus malesuada quam at leo.”</p>
+      <li class="testimonials__item">
+        <div class="testimonials__profile">
+          <img class="testimonials__pfp" src="./img/pfp/kamilla.jpg" alt="Client's profile picture">
+          <div class="testimonials__info">
+            <h3>Kamilla Becker 🍃</h3>
+            <span><span>5</span>/5</span>
+          </div>
+        </div>
+        <p class="testimonials__comment">“It was one of the best investments I've done so far. I'm already reaping good results, feeling fitter, healthier and looking forward for the next challenges. 💪”</p>
+      </li>
+      <li class="testimonials__item">
+        <div class="testimonials__profile">
+          <img class="testimonials__pfp" src="./img/pfp/roger.jpg" alt="Client's profile picture">
+          <div class="testimonials__info">
+            <h3>Roger Walker 🍃</h3>
+            <span><span>4.8</span>/5</span>
+          </div>
+        </div>
+        <p class="testimonials__comment">“Love the community, the fact that everyone is worried about the planet's future and we're are impacting positively the world in a healthy way, gives me hope for a brighter future for everyone.🌳”</p>
+      </li>
+      <li class="testimonials__item">
+        <div class="testimonials__profile">
+          <img class="testimonials__pfp" src="./img/pfp/alanna.jpg" alt="Client's profile picture">
+          <div class="testimonials__info">
+            <h3>Alanna Kudrow 🍃</h3>
+            <span><span>4.9</span>/5</span>
+          </div>
+        </div>
+        <p class="testimonials__comment">“Is there feeling better than getting fitter and healthier in a way that helps both humans and the environment at once? Big Love for Thiéron and the GreenGainers, best investment ever. 💖 ”</p>
+      </li>
+      <li class="testimonials__item">
+        <div class="testimonials__profile">
+          <img class="testimonials__pfp" src="./img/pfp/mark.jpg" alt="Client's profile picture">
+          <div class="testimonials__info">
+            <h3>Mark Williams 🍃</h3>
+            <span><span>4.9</span>/5</span>
+          </div>
+        </div>
+        <p class="testimonials__comment">“It was one of the best investments I've done so far. I'm already reaping good results, feeling fitter, healthier and looking forward for the next challenges. 💪”</p>
       </li>
     </ul>
-  </section> -->
+  </section>
 
 </body>
 

@@ -1,7 +1,3 @@
-:root {
-  font: 100%/1.5;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -25,11 +21,4 @@ a {
 img {
   display: block;
   max-width: 100%;
-}
-
-h1,
-h2,
-h3,
-p {
-  margin: 0;
 }

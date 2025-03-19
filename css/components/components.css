@@ -1,28 +1,12 @@
 /*Container*/
-:root {
-  --container: 1200px;
-  --section-spacing: 6rem;
-  --page-block-spacing: 2rem;
-  --page-inline-spacing: 2rem;
+.container {
+  max-width: var(--container);
+  margin-inline: var(--centered-container);
 }
 
-@media (max-width: 992px) {
-  :root {
-    --section-spacing: 3.75rem;
-  }
-}
-
-@media (max-width: 760px) {
-  :root {
-    --page-block-spacing: 1rem;
-    --page-inline-spacing: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  :root {
-    --section-spacing: 2.5rem;
-  }
+/*Section Spacing*/
+.section-gap {
+  padding-top: var(--section-spacing);
 }
 
 /*Headlines*/
