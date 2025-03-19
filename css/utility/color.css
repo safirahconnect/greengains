@@ -1,6 +1,7 @@
 :root {
   --w: #fff;
   --grad: linear-gradient(#d2dd88, #b2c970);
+  --grad-hover: linear-gradient(#c8d475, #9cb354);
 
   /* Primary Base Color*/
   --p: #bd8;

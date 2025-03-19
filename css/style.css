@@ -5,3 +5,5 @@
 
 @import "./components/components.css";
 @import "./components/header.css";
+
+@import "./home/hero.css";

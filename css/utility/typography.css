@@ -1,21 +1,58 @@
 :root {
-  /*Farro*/
-  --display-lg: 700 3.75rem/1.1 "Farro", display;
-  --display-md: 700 2.5rem/1.1 "Farro", display;
-  --headline-lg: 700 2rem/1.25 "Farro", display;
-  --label-lg: 700 0.875rem/1.14 "Farro", display;
+  /* Font-Families */
+  --font-1: "Farro", display;
+  --font-2: "Alegreya Sans", sans-serif;
 
-  /*Alegreya Sans*/
-  --body-lg: 400 1.5rem/1.33 "Alegreya Sans", sans-serif;
-  --body-lg-b: 700 1.5rem/1.33 "Alegreya Sans", sans-serif;
-  --body-md: 400 1.25rem/1.6 "Alegreya Sans", sans-serif;
-  --body-md-b: 700 1.25rem/1.6 "Alegreya Sans", sans-serif;
-  --title-lg: 400 1.25rem/1 "Alegreya Sans", sans-serif;
-  --title-lg-b: 700 1.25rem/1.6 "Alegreya Sans", sans-serif;
-  --title-md-i: italic 300 1rem/1.5 "Alegreya Sans", sans-serif;
-  --title-md: 400 1rem/1.5 "Alegreya Sans", sans-serif;
-  --title-md-b: 700 1rem/1.5 "Alegreya Sans", sans-serif;
-  --body-sm: 400 0.875rem/1.42 "Alegreya Sans", sans-serif;
-  --label-md: 400 0.75rem/1 "Alegreya Sans", sans-serif;
-  --label-md-b: 700 0.75rem/1 "Alegreya Sans", sans-serif;
+  /* Font Weights and Styles */
+  --regular: 400;
+  --bold: 700;
+  --italic-light: italic 300;
+
+  /* Farro -> (Display, Headline & Label) */
+  --display-lg: 3.75rem/1.1 var(--font-1);
+  --display-md: 2.5rem/1.1 var(--font-1);
+
+  --headline-lg: 2rem/1.25 var(--font-1);
+
+  --label-lg: 0.875rem/1.14 var(--font-1);
+
+  /* Alegreya Sans (Body, Titles & Labels) */
+  --body-lg: var(--regular) 1.5rem/1.33 var(--font-2);
+  --body-lg-b: var(--bold) 1.5rem/1.33 var(--font-2);
+
+  --body-md: var(--regular) 1.25rem/1.6 var(--font-2);
+  --body-md-b: var(--bold) 1.25rem/1.6 var(--font-2);
+
+  --body-sm: var(--regular) 0.875rem/1.42 var(--font-2);
+
+  --title-lg: var(--regular) 1.25rem/1 var(--font-2);
+  --title-lg-b: var(--bold) 1.25rem/1.6 var(--font-2);
+
+  --title-md-i: var(--italic-light) 1rem/1.5 var(--font-2);
+  --title-md: var(--regular) 1rem/1.5 var(--font-2);
+  --title-md-b: var(--bold) 1rem/1.5 var(--font-2);
+
+  --label-md: var(--regular) 0.75rem/1 var(--font-2);
+  --label-md-b: var(--bold) 0.75rem/1 var(--font-2);
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --display-lg: 3rem/1.1 var(--font-1);
+  }
+}
+
+@media (max-width: 992px) {
+  :root {
+    --display-lg: 2.25rem/1.1 var(--font-1);
+    --body-lg: var(--regular) 1.25rem/1.2 var(--font-2);
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --display-lg: 1.75rem/1.1 var(--font-1);
+    --body-lg: var(--regular) 1rem/1.2 var(--font-2);
+    --title-md-b: var(--bold) 0.875rem/1.5 var(--font-2);
+  }
 }

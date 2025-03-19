@@ -14,21 +14,21 @@
   gap: 20px;
 }
 
-.header__menu a {
+.header__menu-link {
   padding-block: 0.8em;
 }
 
-.header__menu a:hover {
+.header__menu-link:hover {
   color: var(--p-40);
 }
 
-.header--hamburger {
+.header__hamburger {
   display: none;
   aspect-ratio: 1/1; /*equal proportion of width and height*/
   inline-size: 2rem;
 }
 
-.header--hamburger > * {
+.header__hamburger > * {
   height: 4px;
   width: 100%;
   background: var(--p-40);
@@ -40,7 +40,7 @@
     display: none;
   }
 
-  .header--hamburger {
+  .header__hamburger {
     cursor: pointer;
     display: flex;
     flex-direction: column;

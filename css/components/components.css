@@ -1,9 +1,15 @@
 /*Container*/
 :root {
   --container: 1200px;
-  --section-spacing: 24rem;
+  --section-spacing: 6rem;
   --page-block-spacing: 2rem;
   --page-inline-spacing: 2rem;
+}
+
+@media (max-width: 992px) {
+  :root {
+    --section-spacing: 3.75rem;
+  }
 }
 
 @media (max-width: 760px) {
@@ -13,14 +19,42 @@
   }
 }
 
+@media (max-width: 480px) {
+  :root {
+    --section-spacing: 2.5rem;
+  }
+}
+
 /*Btns*/
 .btn {
-  font: var(--title-md);
+  font: var(--title-md-b);
   padding: 0.75em 1.25em;
   border-radius: 8px;
+}
+
+.btn--filled {
+  background: var(--grad);
+  color: var(--p-60);
+}
+
+.btn--filled:hover {
+  background: var(--grad-hover);
+}
+
+.btn--elevated {
+  box-shadow: 2px 2px 4px rgba(14, 34, 0, 0.25);
 }
 
 .btn--outlined {
   color: var(--p-70);
   border: 1px solid currentColor;
+}
+
+.btn--outlined:hover,
+.btn--text {
+  color: var(--p-40);
+}
+
+.btn--text:hover {
+  color: var(--p-50);
 }
