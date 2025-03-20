@@ -4,9 +4,22 @@
   margin-inline: var(--centered-container);
 }
 
+.gallery.container {
+  max-width: var(--container-wide);
+}
+
 /*Section Spacing*/
 .section-gap {
   padding-top: var(--section-spacing);
+}
+
+.gallery--bg.section-gap {
+  margin-top: var(--section-spacing);
+  padding-bottom: var(--section-spacing);
+}
+
+.inline-gap {
+  padding-inline: var(--page-inline-spacing);
 }
 
 /*Headlines*/
