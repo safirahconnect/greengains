@@ -11,7 +11,7 @@
 }
 
 .header__menu-link {
-  padding-block: 0.8em;
+  padding-block: 0.5em;
 }
 
 .header__menu-link:hover {
@@ -31,7 +31,7 @@
   border-radius: 2px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .header__menu {
     display: none;
   }
