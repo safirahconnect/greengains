@@ -1,11 +1,15 @@
 /*Container*/
 .container {
-  max-width: var(--container);
+  max-width: var(--container-sm);
   margin-inline: var(--centered-container);
 }
 
 .gallery.container {
-  max-width: var(--container-wide);
+  max-width: var(--container-lg);
+}
+
+.highlights.container {
+  max-width: var(--container-md);
 }
 
 /*Section Spacing*/

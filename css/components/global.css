@@ -5,8 +5,9 @@
   --page-block-spacing: 2rem;
   --page-inline-spacing: 2rem;
 
-  --container: 1200px;
-  --container-wide: 1600px;
+  --container-sm: 1200px;
+  --container-md: 1400px;
+  --container-lg: 1600px;
   --centered-container: auto;
 
   padding-block: var(--page-block-spacing);
