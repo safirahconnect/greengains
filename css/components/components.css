@@ -29,36 +29,14 @@
   padding-inline: var(--page-inline-spacing);
 }
 
-/*Headlines*/
-.headline--lg {
-  font: var(--display-lg);
-}
-
-.headline--md {
-  font: var(--display-md);
-}
-
-.headline--lg > *,
-.headline--md > * {
-  color: var(--p-40);
-}
-
-/*Texts*/
-.text--lg {
-  font: var(--body-lg);
-  color: var(--p-70);
-}
-
 /*Btns*/
 .btn {
-  font: var(--title-md-b);
   padding: 0.5em 1em;
   border-radius: 8px;
 }
 
 .btn--filled {
   background: var(--grad);
-  color: var(--p-60);
 }
 
 .btn--filled:hover {
@@ -70,15 +48,19 @@
 }
 
 .btn--outlined {
-  color: var(--p-70);
   border: 1px solid currentColor;
 }
 
-.btn--outlined:hover,
-.btn--text {
+.btn--outlined:hover {
   color: var(--p-40);
 }
 
 .btn--text:hover {
   color: var(--p-50);
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
 }

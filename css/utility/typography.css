@@ -58,3 +58,73 @@
     --title-md-b: var(--bold) 0.875rem/1.5 var(--font-2);
   }
 }
+
+/*Displays*/
+.display--lg {
+  font: var(--display-lg);
+}
+
+.display--md {
+  font: var(--display-md);
+}
+
+/*Headline*/
+.headline--lg {
+  font: var(--headline-lg);
+}
+
+/*Body Texts*/
+.body--lg {
+  font: var(--body-lg);
+  color: var(--p-70);
+}
+
+.body--lg-b {
+  font: var(--body-lg-b);
+}
+
+.body--md {
+  font: var(--body-md);
+}
+
+.body--md-b {
+  font: var(--body-md-b);
+}
+
+.body--sm {
+  font: var(--body-sm);
+}
+
+/*Titles*/
+.title--lg {
+  font: var(--title-lg);
+}
+
+.title--lg-b {
+  font: var(--title-lg-b);
+}
+
+.title--md {
+  font: var(--title-md);
+}
+
+.title--md-b {
+  font: var(--title-md-b);
+}
+
+.title--md-i {
+  font: var(--title-md-i);
+}
+
+/*Labels*/
+.label--lg {
+  font: var(--label-lg);
+}
+
+.label--md {
+  font: var(--label-md);
+}
+
+.label--md-b {
+  font: var(--label-md-b);
+}

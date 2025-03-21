@@ -30,24 +30,6 @@
   height: 80px;
 }
 
-.testimonials__info :first-child {
-  font: var(--title-lg-b);
-  color: var(--p-70);
-}
-
-.testimonials__info :last-child {
-  font: var(--label-lg);
-  color: var(--p);
-}
-
-.testimonials__item :last-child > :only-child {
-  color: var(--p-40);
-}
-
-.testimonials__comment {
-  font: var(--title-md-i);
-}
-
 @media (max-width: 992px) {
   .testimonials__list {
     grid-template-columns: 1fr 1fr;

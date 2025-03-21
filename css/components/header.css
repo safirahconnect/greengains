@@ -5,7 +5,6 @@
 }
 
 .header__menu {
-  font: var(--title-md);
   display: flex;
   gap: 20px;
 }

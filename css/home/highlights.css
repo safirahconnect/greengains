@@ -3,7 +3,6 @@
 }
 
 .highlights {
-  color: var(--p);
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -16,14 +15,7 @@
 
 .highlights__item > :first-child {
   display: block;
-  font: var(--display-lg);
-  color: var(--p-10);
   margin-bottom: 0.2em;
-}
-
-.highlights__item > :last-child {
-  font: var(--body-lg);
-  color: var(--p-30);
 }
 
 @media (max-width: 768px) {
