@@ -1,28 +1,31 @@
 /*Container*/
 .container {
-  max-width: var(--container-sm);
   margin-inline: var(--centered-container);
 }
 
-.gallery.container {
-  max-width: var(--container-lg);
+.container--sm {
+  max-width: var(--container-sm);
 }
 
-.highlights.container {
+.container--md {
   max-width: var(--container-md);
 }
 
+.container--lg {
+  max-width: var(--container-lg);
+}
+
 /*Section Spacing*/
-.section-gap {
+.section--gap {
   padding-top: var(--section-spacing);
 }
 
-.gallery--bg.section-gap {
+.gallery--bg.section--gap {
   margin-top: var(--section-spacing);
   padding-bottom: var(--section-spacing);
 }
 
-.inline-gap {
+.inline--gap {
   padding-inline: var(--page-inline-spacing);
 }
 
