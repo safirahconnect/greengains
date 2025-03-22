@@ -1,0 +1,29 @@
+.footer--bg {
+  background-color: var(--p-30);
+  padding-block: var(--page-block-spacing);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__text > * {
+  text-decoration: underline;
+}
+
+.footer__text > *:hover {
+  color: var(--p-40);
+}
+
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer__text {
+    text-align: center;
+  }
+}

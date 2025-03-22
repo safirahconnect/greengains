@@ -31,6 +31,16 @@
   padding-bottom: var(--section-spacing);
 }
 
+.footer--bg.section--gap {
+  margin-top: var(--section-spacing-lg);
+}
+
+@media (max-width: 640px) {
+  .footer--bg.section--gap {
+    margin-top: var(--section-spacing);
+  }
+}
+
 .inline--gap {
   padding-inline: var(--page-inline-spacing);
 }
