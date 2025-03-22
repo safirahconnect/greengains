@@ -14,7 +14,7 @@
 
 <body>
   <header class="header container container--sm inline--gap">
-    <a href=""><img src="./img/logo.svg" alt="GreenGains' Logo"></a>
+    <a href="./"><img src="./img/logo.svg" alt="GreenGains' Logo"></a>
     <nav>
       <ul class="header__menu title--md p-70">
         <li><a class="header__menu-link" href="./">Home</a></li>
@@ -24,11 +24,11 @@
         <li><a class="btn btn--outlined title--md-b" href="./">Book Free Consultation</a></li>
       </ul>
     </nav>
-    <div class="header__hamburger">
-      <div class="header__hamburger-line"></div>
-      <div class="header__hamburger-line"></div>
-      <div class="header__hamburger-line"></div>
-    </div>
+    <a href="./" class="header__hamburger">
+      <span class="header__hamburger-line"></span>
+      <span class="header__hamburger-line"></span>
+      <span class="header__hamburger-line"></span>
+    </a>
   </header>
 
   <main class="hero container container--sm section--gap inline--gap">
@@ -245,6 +245,42 @@
           <p class="body--md p-10"><a class="community__link title--lg-b p" href="">Learn more</a> and become a greengainer today<span class="title--md-i">—now that you know what it means!</span></p>
         </div>
       </div>
+    </div>
+  </article>
+
+  <article class="socialNewsletter container container--sm section--gap inline--gap">
+    <div class="social--bg">
+      <h2 class="social__headline headline--lg p-70">Follow me on <span class="p-50">social media</span></h2>
+      <p class="social__text body--lg p-70">On <span class="body--lg-b">Instagram</span> , I share eco-conscious brands recommendations, important fundraisers, and live sessions.</p>
+      <p class="social__text body--lg p-70">Over on <span class="body--lg-b">Youtube</span> and <span class="body--lg-b">Tiktok</span> , I post the highlights from our workshops, retreats, challenges and outdoor training showcasing we’re creating through our actions. Join me on this journey to make a difference.</p>
+      <ul class="social__list">
+        <li class="social__item">
+          <a class="social__link body--lg-b p-50" href="">
+            <img src="./img/icons/instagram.svg" alt="">
+            <span>@thieron_stark</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link body--lg-b p-50" href="">
+            <img src="./img/icons/youtube.svg" alt="">
+            <span>@thieron_stark</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link body--lg-b p-50" href="">
+            <img src="./img/icons/tiktok.svg" alt="">
+            <span>@thieron_stark</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="newsletter--bg">
+      <h2 class="newsletter__headline headline--lg p-70">Subscribe to our <span class="p-50">newsletter</span></h2>
+      <p class="newsletter__text body--lg p-70">You might miss some of our content even though you are already on the group. Prevent it by subscribing to our newsletter to keep up to date and don’t miss anything!</p>
+      <form class="newsletter__form" action="">
+        <input class="newsletter__input title--lg-b p-50" type="email" name="" id="" placeholder="Your best email">
+        <button class="btn btn--filled newsletter__btn title--lg-b p-10">Subscribe</button>
+      </form>
     </div>
   </article>
 

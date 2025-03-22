@@ -45,7 +45,8 @@
   background: var(--grad);
 }
 
-.services .btn--filled {
+.services .btn--filled,
+.newsletter__btn.btn--filled {
   background: var(--p-50);
 }
 
@@ -53,7 +54,8 @@
   background: var(--grad-hover);
 }
 
-.services .btn--filled:hover {
+.services .btn--filled:hover,
+.newsletter__btn.btn--filled:hover {
   background: var(--p-60);
 }
 
