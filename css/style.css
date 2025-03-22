@@ -1,12 +1,13 @@
 @import "./reset/reset.css";
-@import "./global/global.css";
 
 @import "./utility/typography.css";
 @import "./utility/color.css";
 
 @import "./components/components.css";
-@import "./components/header.css";
-@import "./components/footer.css";
+
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
 
 @import "./home/hero.css";
 @import "./home/testimonials.css";
