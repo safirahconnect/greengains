@@ -22,7 +22,6 @@
 }
 
 .community__link:hover {
-  color: var(--p-30);
   text-decoration: underline;
 }
 
@@ -53,10 +52,6 @@
   width: 16px;
   height: 11px;
   background: url("../../img/icons/check.svg") no-repeat;
-}
-
-.community__link {
-  text-decoration: underline;
 }
 
 @media (max-width: 480px) {

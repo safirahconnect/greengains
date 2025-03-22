@@ -37,11 +37,11 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  text-decoration: underline;
 }
 
 .social__link:hover {
   color: var(--p-70);
+  text-decoration: underline;
 }
 
 .social__item:first-of-type .social__link:hover > :first-child {

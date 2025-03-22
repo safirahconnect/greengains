@@ -14,6 +14,10 @@
   margin-top: 1em;
 }
 
+.about__link:hover {
+  text-decoration: underline;
+}
+
 .about__subheadline {
   margin-top: 1.25em;
   margin-bottom: 1em;
