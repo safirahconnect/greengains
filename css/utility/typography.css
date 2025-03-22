@@ -51,6 +51,8 @@
 
     --body-lg: var(--regular) 1.25rem/1.2 var(--font-2);
     --body-lg-b: var(--bold) 1.25rem/1.2 var(--font-2);
+    --body-md: var(--regular) 1rem/1.6 var(--font-2);
+    --body-md-b: var(--bold) 1rem/1.6 var(--font-2);
 
     --title-lg: var(--regular) 1rem/1 var(--font-2);
     --title-lg-b: var(--bold) 1rem/1.6 var(--font-2);
@@ -66,6 +68,8 @@
 
     --body-lg: var(--regular) 1rem/1.2 var(--font-2);
     --body-lg-b: var(--bold) 1rem/1.2 var(--font-2);
+    --body-md: var(--regular) 0.875rem/1.6 var(--font-2);
+    --body-md-b: var(--bold) 0.875rem/1.6 var(--font-2);
 
     --title-lg: var(--regular) 0.875rem/1 var(--font-2);
     --title-lg-b: var(--bold) 0.875rem/1.6 var(--font-2);

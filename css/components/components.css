@@ -26,6 +26,11 @@
   padding-bottom: var(--section-spacing);
 }
 
+.community--bg.section--gap {
+  margin-top: 0;
+  padding-bottom: var(--section-spacing);
+}
+
 .inline--gap {
   padding-inline: var(--page-inline-spacing);
 }

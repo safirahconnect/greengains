@@ -1,5 +1,5 @@
 @import "./reset/reset.css";
-@import "./components/global.css";
+@import "./global/global.css";
 
 @import "./utility/typography.css";
 @import "./utility/color.css";
@@ -13,3 +13,4 @@
 @import "./home/highlights.css";
 @import "./home/about.css";
 @import "./home/services.css";
+@import "./home/community.css";
