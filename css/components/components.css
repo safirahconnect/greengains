@@ -21,7 +21,8 @@
 }
 
 .gallery--bg.section--gap,
-.services--bg.section--gap {
+.services--bg.section--gap,
+.plans--bg.section--gap {
   margin-top: var(--section-spacing);
   padding-bottom: var(--section-spacing);
 }
@@ -47,6 +48,9 @@
 
 /*Btns*/
 .btn {
+  cursor: pointer;
+  display: inline-block;
+  border: none;
   padding: 0.5em 1em;
   border-radius: 8px;
 }

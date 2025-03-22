@@ -17,3 +17,5 @@
 @import "./home/services.css";
 @import "./home/community.css";
 @import "./home/social-newsletter.css";
+
+@import "./pricing/plans.css";
