@@ -100,7 +100,6 @@
 /*Body Texts*/
 .body--lg {
   font: var(--body-lg);
-  color: var(--p-70);
 }
 
 .body--lg-b {
