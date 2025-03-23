@@ -59,20 +59,19 @@
   justify-items: center;
 }
 
-.plans__expensive > :first-child {
-  margin-bottom: 1em;
+.plans__expensive > * + * {
+  margin-top: 1em;
 }
 
 .plans__expensive > :nth-child(2) {
-  margin-bottom: 1em;
   max-width: 760px;
   text-align: center;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .plans__list {
     grid-template-columns: 1fr;
-    align-content: center;
+    justify-items: center;
   }
 
   .plans__text {
@@ -81,5 +80,12 @@
 
   .plans__item .btn {
     width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .plans__name {
+    text-transform: uppercase;
+    letter-spacing: 0.04rem;
   }
 }
