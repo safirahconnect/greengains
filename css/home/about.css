@@ -14,10 +14,6 @@
   margin-top: 1em;
 }
 
-.about__link:hover {
-  text-decoration: underline;
-}
-
 .about__subheadline {
   margin-top: 1.25em;
   margin-bottom: 1em;
@@ -77,12 +73,6 @@
 
 .inspiring__link {
   text-transform: uppercase;
-  letter-spacing: 0.04rem;
-}
-
-.inspiring__text:last-of-type > *:hover,
-.inspiring__link:hover {
-  text-decoration: underline;
 }
 
 @media (max-width: 992px) {

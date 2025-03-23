@@ -48,6 +48,7 @@
 
 /*Btns*/
 .btn {
+  font: var(--title-md-b);
   cursor: pointer;
   display: inline-block;
   border: none;
@@ -56,7 +57,12 @@
 }
 
 .btn--filled {
+  color: var(--p-60);
   background: var(--grad);
+}
+
+.btn--filled:hover {
+  background: var(--grad-hover);
 }
 
 .services .btn--filled,
@@ -64,8 +70,9 @@
   background: var(--p-50);
 }
 
-.btn--filled:hover {
-  background: var(--grad-hover);
+.services .btn--filled,
+.newsletter__btn.btn--filled {
+  color: var(--p-10);
 }
 
 .services .btn--filled:hover,
@@ -81,16 +88,35 @@
   border: 1px solid currentColor;
 }
 
-.btn--outlined:hover {
+.btn--text:hover {
+  text-decoration: underline;
+}
+
+.btn--text,
+.btn--outlined:hover,
+.btn--text:hover.header__link,
+.btn--text:hover.inspiring__link,
+.community .btn--text:hover,
+.plans__expensive .btn--text:hover {
   color: var(--p-40);
 }
 
+.btn--text:hover,
+.btn--text.social__link,
 .services .btn--outlined:hover {
+  color: var(--p-50);
+}
+
+.btn--outlined,
+.btn--text.header__link,
+.btn--text.inspiring__link,
+.btn--text:hover.social__link,
+.plans__expensive .btn--text {
   color: var(--p-70);
 }
 
-.btn--text:hover {
-  color: var(--p-50);
+.community .btn--text {
+  color: var(--p);
 }
 
 .btns {

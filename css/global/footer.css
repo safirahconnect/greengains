@@ -10,11 +10,8 @@
   gap: 20px;
 }
 
-.footer__text > * {
-  text-decoration: underline;
-}
-
 .footer__text > *:hover {
+  text-decoration: underline;
   color: var(--p-40);
 }
 

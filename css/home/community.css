@@ -21,10 +21,6 @@
   object-position: center;
 }
 
-.community__link:hover {
-  text-decoration: underline;
-}
-
 .community__content {
   display: grid;
   grid-template-columns: 4fr 8fr;

@@ -69,11 +69,6 @@
   text-align: center;
 }
 
-.plans__link:hover {
-  text-decoration: underline;
-  color: var(--p-40);
-}
-
 @media (max-width: 992px) {
   .plans__list {
     grid-template-columns: 1fr;
