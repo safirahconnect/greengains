@@ -36,7 +36,7 @@
   display: inline-block;
   width: 16px;
   height: 10px;
-  background: url("../../img/icons/arrow.svg") no-repeat;
+  background: url("../../../img/icons/arrow.svg") no-repeat;
 }
 
 .faq__question > :last-child {

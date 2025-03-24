@@ -9,17 +9,17 @@
 @import "./global/header.css";
 @import "./global/footer.css";
 
-@import "./home/hero.css";
-@import "./home/testimonials.css";
-@import "./home/gallery.css";
-@import "./home/highlights.css";
-@import "./home/about.css";
-@import "./home/services.css";
-@import "./home/community.css";
-@import "./home/social-newsletter.css";
+@import "./pages/home/hero.css";
+@import "./pages/home/testimonials.css";
+@import "./pages/home/gallery.css";
+@import "./pages/home/highlights.css";
+@import "./pages/home/about.css";
+@import "./pages/home/services.css";
+@import "./pages/home/community.css";
+@import "./pages/home/social-newsletter.css";
 
-@import "./pricing/plans.css";
-@import "./pricing/faq.css";
+@import "./pages/pricing/plans.css";
+@import "./pages/pricing/faq.css";
 
-@import "./sustainability/sustainability.css";
-@import "./sustainability/nutrition.css";
+@import "./pages/sustainability/sustainability.css";
+@import "./pages/sustainability/nutrition.css";
