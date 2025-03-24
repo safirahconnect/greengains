@@ -22,7 +22,8 @@
 
 .gallery--bg.section--gap,
 .services--bg.section--gap,
-.plans--bg.section--gap {
+.plans--bg.section--gap,
+.nutrition--bg.section--gap {
   margin-top: var(--section-spacing);
   padding-bottom: var(--section-spacing);
 }
