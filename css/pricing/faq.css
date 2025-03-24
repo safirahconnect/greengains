@@ -1,0 +1,44 @@
+.faq--bg {
+  background: var(--p-30);
+}
+
+.faq__headline {
+  margin-bottom: 1em;
+}
+
+.faq__question {
+  padding: 1em;
+  background-color: var(--p-10);
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(14, 34, 0, 0.1);
+}
+
+.faq__question + .faq__question {
+  margin-top: 20px;
+}
+
+.faq__question > :first-child > :only-child {
+  width: 100%;
+  font: inherit;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  text-align: left;
+  gap: 20px;
+  background: none;
+  padding-block: 0.25em;
+  margin-bottom: 0.25em;
+  border: none;
+  cursor: pointer;
+}
+
+.faq__question > :first-child > :only-child::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 10px;
+  background: url("../../img/icons/arrow.svg") no-repeat;
+}
+
+.faq__question > :last-child {
+  max-width: 620px;
+}

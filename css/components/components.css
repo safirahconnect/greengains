@@ -27,7 +27,8 @@
   padding-bottom: var(--section-spacing);
 }
 
-.community--bg.section--gap {
+.community--bg.section--gap,
+.faq--bg.section--gap {
   margin-top: 0;
   padding-bottom: var(--section-spacing);
 }
