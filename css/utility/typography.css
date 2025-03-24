@@ -57,6 +57,8 @@
 
     --title-lg: var(--regular) 1rem/1 var(--font-2);
     --title-lg-b: var(--bold) 1rem/1.6 var(--font-2);
+
+    /* --title-md-i: var(--italic) 0.875rem/1.5 var(--font-2); */
   }
 }
 
@@ -77,6 +79,7 @@
     --title-lg-b: var(--bold) 0.875rem/1.6 var(--font-2);
     --title-md: var(--regular) 0.875rem/1.5 var(--font-2);
     --title-md-b: var(--bold) 0.875rem/1.5 var(--font-2);
+    --title-md-i: var(--italic) 0.875rem/1.5 var(--font-2);
   }
 }
 
