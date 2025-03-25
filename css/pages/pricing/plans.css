@@ -50,7 +50,7 @@
   display: inline-block;
   width: 16px;
   height: 11px;
-  background: url("../../img/icons/check.svg") no-repeat;
+  background: url("../../../img/icons/check.svg") no-repeat;
 }
 
 .plans__expensive {

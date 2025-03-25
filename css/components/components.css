@@ -23,12 +23,13 @@
 .gallery--bg.section--gap,
 .services--bg.section--gap,
 .plans--bg.section--gap,
-.nutrition--bg.section--gap {
+.nutrition--bg.section--gap,
+#community .community--bg.section--gap {
   margin-top: var(--section-spacing);
   padding-bottom: var(--section-spacing);
 }
 
-.community--bg.section--gap,
+#home .community--bg.section--gap,
 .faq--bg.section--gap,
 .promote--bg.section--gap {
   margin-top: 0;
