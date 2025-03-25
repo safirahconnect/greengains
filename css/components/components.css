@@ -29,7 +29,8 @@
 }
 
 .community--bg.section--gap,
-.faq--bg.section--gap {
+.faq--bg.section--gap,
+.promote--bg.section--gap {
   margin-top: 0;
   padding-bottom: var(--section-spacing);
 }
@@ -105,7 +106,8 @@
 
 .btn--text:hover,
 .btn--text.social__link,
-.services .btn--outlined:hover {
+.services .btn--outlined:hover,
+.promote .btn--text {
   color: var(--p-50);
 }
 
@@ -113,7 +115,8 @@
 .btn--text.header__link,
 .btn--text.inspiring__link,
 .btn--text:hover.social__link,
-.plans__expensive .btn--text {
+.plans__expensive .btn--text,
+.promote .btn--text:hover {
   color: var(--p-70);
 }
 
