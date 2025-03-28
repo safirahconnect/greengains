@@ -155,3 +155,14 @@
     height: 80px;
   }
 }
+
+.community__extra {
+  grid-column: 1/-1;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.community__extra > * + * {
+  margin-top: 1em;
+}
