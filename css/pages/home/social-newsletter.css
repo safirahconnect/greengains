@@ -40,15 +40,15 @@
 }
 
 .social__item:first-of-type .social__link:hover > :first-child {
-  content: url("../../img/icons/instagram-70.svg");
+  content: url("../../../img/icons/instagram-70.svg");
 }
 
 .social__item:nth-of-type(2) .social__link:hover > :first-child {
-  content: url("../../img/icons/youtube-70.svg");
+  content: url("../../../img/icons/youtube-70.svg");
 }
 
 .social__item:last-of-type .social__link:hover > :first-child {
-  content: url("../../img/icons/tiktok-70.svg");
+  content: url("../../../img/icons/tiktok-70.svg");
 }
 
 .newsletter--bg {

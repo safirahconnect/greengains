@@ -83,6 +83,18 @@
   }
 }
 
+@media (max-width: 480px) {
+  :root {
+    --headline-lg: 1rem/1.25 var(--font-1);
+
+    --body-md: var(--regular) 0.75rem/1.3 var(--font-2);
+    --body-md-b: var(--bold) 0.75rem/1.3 var(--font-2);
+
+    --title-md: var(--regular) 0.75rem/1.5 var(--font-2);
+    --title-md-b: var(--bold) 0.75rem/1.5 var(--font-2);
+  }
+}
+
 /*Displays*/
 .display--lg {
   font: var(--display-lg);

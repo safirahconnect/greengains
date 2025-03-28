@@ -1,6 +1,6 @@
 .footer--bg {
   background-color: var(--p-30);
-  padding-block: var(--page-block-spacing);
+  padding-block: var(--page-block-gap);
 }
 
 .footer {

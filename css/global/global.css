@@ -1,35 +1,35 @@
 /*Page, Sections & Container*/
 :root {
-  --section-spacing: 6rem;
-  --section-spacing-lg: 16rem;
+  --section-gap: 6rem;
+  --section-gap-lg: 16rem;
 
-  --page-block-spacing: 2rem;
-  --page-inline-spacing: 2rem;
+  --page-block-gap: 2rem;
+  --page-inline-gap: 2rem;
 
   --container-sm: 1200px;
   --container-md: 1400px;
   --container-lg: 1600px;
   --centered-container: auto;
 
-  padding-top: var(--page-block-spacing);
+  padding-top: var(--page-block-gap);
 }
 
 @media (max-width: 992px) {
   :root {
-    --section-spacing: 3.75rem;
-    --section-spacing-lg: 14.5rem;
+    --section-gap: 3.75rem;
+    --section-gap-lg: 14.5rem;
   }
 }
 
 @media (max-width: 760px) {
   :root {
-    --page-block-spacing: 1rem;
-    --page-inline-spacing: 1rem;
+    --page-block-gap: 1rem;
+    --page-inline-gap: 1rem;
   }
 }
 
 @media (max-width: 480px) {
   :root {
-    --section-spacing: 2.5rem;
+    --section-gap: 2.5rem;
   }
 }

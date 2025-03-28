@@ -17,7 +17,7 @@
 
 /*Section Spacing*/
 .section--gap {
-  padding-top: var(--section-spacing);
+  padding-top: var(--section-gap);
 }
 
 .gallery--bg.section--gap,
@@ -25,29 +25,29 @@
 .plans--bg.section--gap,
 .nutrition--bg.section--gap,
 #community .community--bg.section--gap {
-  margin-top: var(--section-spacing);
-  padding-bottom: var(--section-spacing);
+  margin-top: var(--section-gap);
+  padding-bottom: var(--section-gap);
 }
 
 #home .community--bg.section--gap,
 .faq--bg.section--gap,
 .promote--bg.section--gap {
   margin-top: 0;
-  padding-bottom: var(--section-spacing);
+  padding-bottom: var(--section-gap);
 }
 
 .footer--bg.section--gap {
-  margin-top: var(--section-spacing-lg);
+  margin-top: var(--section-gap-lg);
 }
 
 @media (max-width: 640px) {
   .footer--bg.section--gap {
-    margin-top: var(--section-spacing);
+    margin-top: var(--section-gap);
   }
 }
 
 .inline--gap {
-  padding-inline: var(--page-inline-spacing);
+  padding-inline: var(--page-inline-gap);
 }
 
 /*Btns*/
