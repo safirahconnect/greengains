@@ -96,6 +96,10 @@
   text-decoration: underline;
 }
 
+.btn--text.header__link {
+  text-decoration: none;
+}
+
 .btn--text,
 .btn--outlined:hover,
 .btn--text:hover.header__link,
