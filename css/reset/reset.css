@@ -23,3 +23,29 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+input,
+textarea {
+  border: 2px solid transparent;
+  border-color: var(--p-40);
+  padding: 0.6em 1em;
+  width: 100%;
+  border-radius: 8px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid var(--p-70);
+  box-shadow: 0 0 4px rgba(14, 34, 0, 0.5);
+}
+
+input::placeholder,
+textarea::placeholder {
+  font: var(--title-lg);
+  color: var(--p-40);
+}
+
+textarea {
+  resize: none;
+}

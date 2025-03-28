@@ -1,0 +1,27 @@
+.booking__form--bg {
+  background: var(--p-20);
+}
+
+.booking__formHeadline {
+  margin-bottom: 1.5em;
+}
+
+.booking__form {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.booking__textarea {
+  grid-column: 1/-1;
+}
+
+.booking__btn {
+  grid-column: 1/-1;
+}
+
+@media (max-width: 480px) {
+  .booking__form {
+    grid-template-columns: auto;
+  }
+}

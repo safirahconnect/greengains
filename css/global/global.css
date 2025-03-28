@@ -6,6 +6,7 @@
   --page-block-gap: 2rem;
   --page-inline-gap: 2rem;
 
+  --container-xsm: 800px;
   --container-sm: 1200px;
   --container-md: 1400px;
   --container-lg: 1600px;

@@ -3,6 +3,10 @@
   margin-inline: var(--centered-container);
 }
 
+.container--xsm {
+  max-width: var(--container-xsm);
+}
+
 .container--sm {
   max-width: var(--container-sm);
 }
@@ -31,7 +35,8 @@
 
 #home .community--bg.section--gap,
 .faq--bg.section--gap,
-.promote--bg.section--gap {
+.promote--bg.section--gap,
+.booking__form--bg.section--gap {
   margin-top: 0;
   padding-bottom: var(--section-gap);
 }
@@ -70,17 +75,20 @@
 }
 
 .services .btn--filled,
-.newsletter__btn.btn--filled {
+.newsletter__btn.btn--filled,
+.booking__formContainer .btn--filled {
   background: var(--p-50);
 }
 
 .services .btn--filled,
-.newsletter__btn.btn--filled {
+.newsletter__btn.btn--filled,
+.booking__formContainer .btn--filled {
   color: var(--p-10);
 }
 
 .services .btn--filled:hover,
-.newsletter__btn.btn--filled:hover {
+.newsletter__btn.btn--filled:hover,
+.booking__formContainer .btn--filled:hover {
   background: var(--p-60);
 }
 
