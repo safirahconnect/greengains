@@ -2,6 +2,7 @@
 
 @import "./utility/typography.css";
 @import "./utility/color.css";
+@import "./utility/plugin.css";
 
 @import "./components/components.css";
 

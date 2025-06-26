@@ -30,3 +30,7 @@ function initHighlightLink() {
 }
 
 initHighlightLink();
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
