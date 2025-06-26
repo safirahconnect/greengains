@@ -31,7 +31,7 @@
   cursor: pointer;
 }
 
-.faq__question > :first-child > :only-child::after {
+.faq__question button::after {
   content: "";
   display: inline-block;
   width: 16px;
@@ -39,6 +39,16 @@
   background: url("../../../img/icons/arrow.svg") no-repeat;
 }
 
-.faq__question > :last-child {
+.js .faq__question:hover button::after,
+.js .faq__question dt.active button::after {
+  rotate: 180deg;
+}
+
+.js .faq__question dd.active {
+  display: block;
+}
+
+.js .faq__question dd {
   max-width: 620px;
+  display: none;
 }
