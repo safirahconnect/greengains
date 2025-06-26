@@ -21,9 +21,14 @@
   background: var(--p-40);
 }
 
-.header__hamburger {
+.header__menu .active {
+  color: var(--p-40);
+  font: var(--title-md-b);
+}
+
+/*.header__hamburger {
   display: none;
-  aspect-ratio: 1/1; /*equal proportion of width and height*/
+  aspect-ratio: 1/1; /equal proportion of width and height
   inline-size: 2rem;
 }
 
@@ -46,3 +51,4 @@
     justify-content: space-around;
   }
 }
+*/

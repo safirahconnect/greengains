@@ -14,3 +14,17 @@ function initAccordionList() {
 }
 
 initAccordionList();
+
+function initHighlightLink() {
+  const links = document.querySelectorAll(".header__menu a");
+  if (links.length) {
+    links.forEach((link) => {
+      const href = location.href;
+      if (link.href.includes(href)) {
+        link.classList.add("active");
+      }
+    });
+  }
+}
+
+initHighlightLink();
