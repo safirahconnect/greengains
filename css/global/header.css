@@ -13,12 +13,16 @@
   padding-block: 0.5em;
 }
 
-.header__link:hover::after {
+.header__link::after {
   content: "";
   display: block;
-  width: 100%;
-  height: 1px;
+  height: 2px;
+  width: 0;
   background: var(--p-40);
+}
+
+.header__link.active::after {
+  width: 100%;
 }
 
 .header__menu .active {
