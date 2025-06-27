@@ -65,6 +65,12 @@
   border-radius: 8px;
 }
 
+@media (max-width: 768px) {
+  .header__nav.active .btn {
+    font: var(--body-lg-b);
+  }
+}
+
 .btn--filled {
   color: var(--p-60);
   background: var(--grad);
