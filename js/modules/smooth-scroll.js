@@ -1,0 +1,15 @@
+export default function initSmoothScroll() {
+  const btn = document.querySelector("a[href^='#booking']");
+  btn.addEventListener("click", activeSmoothScroll);
+
+  function activeSmoothScroll(e) {
+    e.preventDefault();
+    const href = this.getAttribute("href");
+    const section = document.querySelector(href);
+
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }
+}
