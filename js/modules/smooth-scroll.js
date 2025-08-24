@@ -1,5 +1,7 @@
 export default function initSmoothScroll() {
-  const btn = document.querySelector("a[href^='#booking']");
+  const btn = document.querySelector("[data-link='smooth']");
+  
+  if(btn) {
   btn.addEventListener("click", activeSmoothScroll);
 
   function activeSmoothScroll(e) {
@@ -12,4 +14,5 @@ export default function initSmoothScroll() {
       block: "start",
     });
   }
+}
 }

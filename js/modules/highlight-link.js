@@ -1,5 +1,5 @@
 export default function initHighlightLink() {
-  const links = document.querySelectorAll(".header__menu a");
+  const links = document.querySelectorAll("[data-nav='link']");
 
   if (links.length) {
     links.forEach((link) => {

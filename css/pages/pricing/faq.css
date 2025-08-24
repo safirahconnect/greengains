@@ -40,7 +40,7 @@
 }
 
 .js .faq__question:hover button::after,
-.js .faq__question dt.active button::after {
+.js [data-dt="accordion"].active button::after {
   rotate: 180deg;
 }
 

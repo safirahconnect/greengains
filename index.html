@@ -7,8 +7,8 @@
   <meta name="description" content="Your Eco-Enthusiast Personal Trainer for a Healthier You.">
   <title>Thiéron | Eco Personal Trainer</title>
   <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preload" href="style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400&family=Farro:wght@700&display=swap" rel="stylesheet">
@@ -20,16 +20,16 @@
 <body id="home">
   <header class="header container container--sm inline--gap">
     <a href="./"><img width="62" height="68" src="./img/logo.svg" alt="GreenGains' Logo"></a>
-    <nav class="header__nav" aria-label="primary">
-      <ul class="header__menu title--md">
-        <li><a class="header__link btn--text" href="./">Home</a></li>
-        <li><a class="header__link btn--text" href="./pricing.html">Pricing</a></li>
-        <li><a class="header__link btn--text" href="./sustainability.html">Sustainability</a></li>
-        <li><a class="header__link btn--text" href="./community.html">Community</a></li>
-        <li><a class="btn btn--outlined" href="./booking.html">Book Free Consultation</a></li>
+    <nav class="header__nav" aria-label="primary" data-nav="hamburger">
+      <ul class="header__menu title--md" data-menu="hamburger">
+        <li><a class="header__link btn--text" data-nav="link" href="./">Home</a></li>
+        <li><a class="header__link btn--text" data-nav="link" href="./pricing.html">Pricing</a></li>
+        <li><a class="header__link btn--text" data-nav="link" href="./sustainability.html">Sustainability</a></li>
+        <li><a class="header__link btn--text" data-nav="link" href="./community.html">Community</a></li>
+        <li><a class="btn btn--outlined" data-nav="link" href="./booking.html">Book Free Consultation</a></li>
       </ul>
     </nav>
-    <a href="./" class="header__hamburger" aria-label="Menu hamburger">
+    <a href="./" class="header__hamburger" aria-label="Menu hamburger" data-icon="hamburger">
       <span></span>
       <span></span>
       <span></span>

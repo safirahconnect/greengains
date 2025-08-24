@@ -1,10 +1,12 @@
 export default function initHamburgerMenu() {
-  const hamburger = document.querySelector(".header__hamburger");
-  const nav = document.querySelector(".header__nav");
+  const hamburger = document.querySelector("[data-icon='hamburger']");
+  const nav = document.querySelector("[data-nav='hamburger']");
 
-  hamburger.addEventListener("click", (e) => {
-    e.preventDefault();
-    hamburger.classList.toggle("active");
-    nav.classList.toggle("active");
-  });
+  if(hamburger && nav) {
+    hamburger.addEventListener("click", (e) => {
+      e.preventDefault();
+      hamburger.classList.toggle("active");
+      nav.classList.toggle("active");
+    });
+  }
 }

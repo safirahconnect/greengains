@@ -1,6 +1,6 @@
 //accordion list
 export default function initAccordionList() {
-  const questions = document.querySelectorAll(".faq__question dt");
+  const questions = document.querySelectorAll("[data-dt='accordion']");
   if (questions.length) {
     questions[0].classList.add("active");
     questions[0].nextElementSibling.classList.add("active");

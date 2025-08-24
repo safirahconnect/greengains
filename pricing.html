@@ -7,8 +7,8 @@
   <meta name="description" content="Check out the GreenGains' pricing and plans ">
   <title>Thiéron | Pricing</title>
   <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preload" href="style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preload" href="./css/style.css" as="style">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,400;0,700;1,400&family=Farro:wght@700&display=swap" rel="stylesheet">
@@ -20,16 +20,16 @@
 <body>
   <header class="header container container--sm inline--gap">
     <a href="./"><img width="62" height="68" src="./img/logo.svg" alt="GreenGains' Logo"></a>
-    <nav class="header__nav" aria-label="primary">
-      <ul class="header__menu title--md">
-        <li><a class="header__link btn--text" href="./">Home</a></li>
-        <li><a class="header__link btn--text" href="./pricing.html">Pricing</a></li>
-        <li><a class="header__link btn--text" href="./sustainability.html">Sustainability</a></li>
-        <li><a class="header__link btn--text" href="./community.html">Community</a></li>
-        <li><a class="btn btn--outlined" href="./booking.html">Book Free Consultation</a></li>
+    <nav class="header__nav" aria-label="primary" data-nav="hamburger">
+      <ul class="header__menu title--md" data-menu="hamburger">
+        <li><a class="header__link btn--text" data-nav="link" href="./">Home</a></li>
+        <li><a class="header__link btn--text" data-nav="link" href="./pricing.html">Pricing</a></li>
+        <li><a class="header__link btn--text" data-nav="link" href="./sustainability.html">Sustainability</a></li>
+        <li><a class="header__link btn--text" data-nav="link" href="./community.html">Community</a></li>
+        <li><a class="btn btn--outlined" data-nav="link" href="./booking.html">Book Free Consultation</a></li>
       </ul>
     </nav>
-    <a href="./" class="header__hamburger" aria-label="Menu hamburger">
+    <a href="./" class="header__hamburger" aria-label="Menu hamburger" data-icon="hamburger">
       <span></span>
       <span></span>
       <span></span>
@@ -216,43 +216,43 @@
       <h2 class="faq__headline display--md" id="faq">Got questions? Check out these <span class="p--40">FAQs!</span> </h2>
       <dl class="body--lg-b">
         <div class="faq__question">
-          <dt><button>1. What makes GreenGains different from other fitness programs?</button></dt>
+          <dt data-dt="accordion"><button>1. What makes GreenGains different from other fitness programs?</button></dt>
           <dd class="title--md">GreenGains combines personalized fitness coaching, nutritional guidance, and sustainable practices to help you achieve your goals while caring for the planet. Our eco-friendly approach ensures your fitness journey benefits both you and the environment.</dd>
         </div>
         <div class="faq__question">
-          <dt><button>2. Do you offer packages for your service?</button></dt>
+          <dt data-dt="accordion"><button>2. Do you offer packages for your service?</button></dt>
           <dd class="title--md">Yes! As a member of the GreenGainer community, you’re eligible for custom packages tailored to your needs and goals. Whether you’re interested in 3 sessions, 6 sessions, or more, we can create a package that works for you.</dd>
         </div>
         <div class="faq__question">
-          <dt><button>3. How do I join the GreenGainer community?</button></dt>
+          <dt data-dt="accordion"><button>3. How do I join the GreenGainer community?</button></dt>
           <dd class="title--md">Once you subscribe to one of our services, you’ll receive an email with a link to join the private GreenGainer WhatsApp group. There, you can connect with other members, participate in challenges, and enjoy exclusive benefits.</dd>
         </div>
         <div class="faq__question">
-          <dt><button>4. Is joining the GreenGainer community mandatory?</button></dt>
+          <dt data-dt="accordion"><button>4. Is joining the GreenGainer community mandatory?</button></dt>
           <dd class="title--md">No, joining the GreenGainer community is completely optional. However, by choosing not to join, you won’t have access to exclusive benefits like: Workshops, retreats, and outdoor training events, Community challenges and rewards (e.g., discounts, eco-friendly prizes), Networking opportunities with like-minded individuals and Customized packages with savings</dd>
         </div>
         <div class="faq__question">
-          <dt><button>5. Are there rewards for participating in GreenGainer challenges?</button></dt>
+          <dt data-dt="accordion"><button>5. Are there rewards for participating in GreenGainer challenges?</button></dt>
           <dd class="title--md">Yes! Completing GreenGainer challenges earns you rewards like discounts on your training program, exclusive content, and eco-friendly prizes. It’s a fun way to stay motivated and make a difference.</dd>
         </div>
         <div class="faq__question">
-          <dt><button>6. Do you provide nutritional support?</button></dt>
+          <dt data-dt="accordion"><button>6. Do you provide nutritional support?</button></dt>
           <dd class="title--md">Yes! As a NASM Certified Nutrition Coach, I offer customized nutrition plans tailored to your goals, whether it’s weight loss, muscle gain, or overall wellness. Plus, I incorporate sustainable eating habits to help you make eco-friendly choices.</dd>
         </div>
         <div class="faq__question">
-          <dt><button>7. How does online coaching provide real-time feedback?</button></dt>
+          <dt data-dt="accordion"><button>7. How does online coaching provide real-time feedback?</button></dt>
           <dd class="title--md">Through live video sessions (e.g., Zoom or Skype), I can watch you perform exercises and provide immediate feedback on your form and technique. You can also send recorded videos for review between sessions, ensuring you stay on track and avoid injuries.</dd>
         </div>
         <div class="faq__question">
-          <dt><button>8. What equipment do I need for online coaching?</button></dt>
+          <dt data-dt="accordion"><button>8. What equipment do I need for online coaching?</button></dt>
           <dd class="title--md">For online coaching, you’ll need basic equipment like a yoga mat, dumbbells (or household items as substitutes), and a stable internet connection. I’ll tailor workouts to the equipment you have, so you don’t need a fully equipped gym.</dd>
         </div>
         <div class="faq__question">
-          <dt><button>9. How long are the training sessions?</button></dt>
+          <dt data-dt="accordion"><button>9. How long are the training sessions?</button></dt>
           <dd class="title--md">Each session lasts up to 2 hours, giving you plenty of time to warm up, work out, and cool down. Whether in-person or online, I’ll ensure you get the most out of every session.</dd>
         </div>
         <div class="faq__question">
-          <dt><button>10. Can I participate in GreenGainer events if I’m not your client?</button></dt>
+          <dt data-dt="accordion"><button>10. Can I participate in GreenGainer events if I’m not your client?</button></dt>
           <dd class="title--md">Some events are exclusive to GreenGainer community members, but we also host public events like Instagram Lives, workshops, and retreats that are open to everyone. As a GreenGainer, you’ll enjoy early and FREE access to tickets for workshops and retreats. For updates on upcoming events, subscribe to our newsletter or follow us on social media.</dd>
         </div>
       </dl>
